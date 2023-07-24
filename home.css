@@ -31,15 +31,15 @@
 .body,.myProfile{
     box-shadow: 1px 1px 10px blueviolet;
     height:fit-content;
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 50px;
 }
 .body{
-    margin-bottom: 25%;
+    margin-bottom: 20%;
 }
 .myProfile{
     font-size: xx-large;
-    margin-bottom: 25%;
+    margin-bottom: 20%;
 }
 .acc,.bal{
     font-size: xx-large;
