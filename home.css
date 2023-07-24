@@ -86,4 +86,8 @@
     .fa-home, .fa-bank{
         margin-right: 90px;
     }
+    .myProfile, .body{
+        width:100%;
+        margin:none;
+    }
 }
