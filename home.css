@@ -87,10 +87,9 @@
         margin-right: 90px;
     }
     .myProfile, .body{
-        width:fit-content;
+        width:100px;
         margin:none;
         padding:none;
-        position: fixed;
-        left: 0;
+
     }
 }
