@@ -80,7 +80,7 @@
 }
 @media screen and (max-width:520px){
     .container{
-        width:100px;
+        width:200px;
         margin-left: none;
     }
     .fa-home, .fa-bank{
