@@ -78,8 +78,8 @@
 .fa-download, .fa-upload{
     cursor: pointer;
 }
-@media(max-width:600px){
-    .logBody{
+@media screen and (max-width:600px){
+    .container{
         width:100%;
     }
 }
