@@ -82,6 +82,8 @@
     .container{
         width:200px;
         margin-left: none;
+        position: fixed;
+        left: 8px;
     }
     .fa-home, .fa-bank{
         margin-right: 90px;
