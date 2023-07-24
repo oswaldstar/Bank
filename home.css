@@ -78,7 +78,7 @@
 .fa-download, .fa-upload{
     cursor: pointer;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:520px){
     .container{
         width:100%;
         margin-left: none;
