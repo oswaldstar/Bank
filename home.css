@@ -79,13 +79,18 @@
     cursor: pointer;
 }
 @media screen and (max-width:520px){
-    .new-con{
+    .container{
         width:100%;
         margin-left: none;
-
     }
     .fa-home, .fa-bank{
         margin-right: 90px;
     }
- 
+    .myProfile, .body{
+        width:100%;
+        margin:none;
+        padding:none;
+
+    }
+
 }
