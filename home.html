@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>해외 은행</title>
+    <link rel="stylesheet" href="home.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+    <nav class="myNav">
+        <span class="user">안녕, 지린</span><br><br>
+<img src='korea.jpg' width='30px' height='30px' alt='profile' class="profile"/><i class="fa fa-upload" id="Withdraw" onclick="withdraw()">철회하다</i><i class="fa fa-download" id="deposit" onclick="deposit()">보증금</i>
+    </nav>
+
+    <div class="body" id="home" >
+<p class="acc"><em><strong style="color:blue">계좌 번호</strong></em>: **********</p>
+<p class="bal"><em><strong style="color:blue">사용 가능한 잔액</strong></em>: &#8361; 2,000,000,000</p>
+<p class="status"><em>상태: </em> <i style="color:grey">제한된</i></p>
+  </div>
+  <div class="myProfile" id="account">
+    <p class="acc"><em><strong style="color:blue">계정 이름</strong></em>: 리홍산</p>
+    <p class="acc"><em><strong style="color:blue">계좌 번호</strong></em>: **********</p>
+    <p class="bal"><em><strong style="color:blue">사용 가능한 잔액</strong></em>:  <span style="font-size: x-large;">&#8361;</span> 2,000,000,000</p>
+    <p class="status"><em style="color:blue">상태: </em> <i style="color:grey; font-size:small">제한된</i></p><br><br>
+    <i style="color:rgb(61, 111, 212)">최근 거래</i>
+    <p class="status"><em>보증금: </em> <i style="color:green">(+2,000,000,000)<sub><i style="color:grey">성공</i></sub></i></p>
+      </div>
+
+  <div class="myProfile" id="myProfile">
+    <i class="fa fa-info">: </i>&nbsp;
+    <i>원활한 거래를 위해 제공된 세부 정보가 원본이고 실제 자격 증명과 일치하는지 확인하십시오.</i><br><br>
+    <em><strong style="color:blue">전체 이름: </strong></em><span>리 길림</span><br><br>
+    <em><strong style="color:blue">휴대폰 번호: </strong></em><span>01079137687</span><br><br>
+    <em><strong style="color:blue">주소: </strong ></em><span>서울시 송파구 마천로57길 23-8</span><br><br>
+    <em><strong style="color:blue">지역: </strong></em><span>길림성</span><br><br>
+    <em><strong style="color:blue">국적: </strong ></em><span>중국</span><br><br>
+    <em><strong style="color:blue">생일: </strong></em><span>19-01-1961</span><br><br>
+  </div>
+     <div class="footer">
+<i class="fa fa-home" onclick="home()" id="hom" style="color:white"><br><br>집</i>
+<i class="fa fa-bank" onclick="account()" id="acc"><br><br>계정</i>
+<i class="fa fa-user" onclick="profile()" id="prof"><br><br>프로필</i>
+        
+     </div>
+     </div>
+
+     <script type="text/javascript">
+        withdraw=()=>{
+    window.location.href="withdrawal.html";
+}
+  var depo=document.getElementById('deposit');      
+var prof=document.getElementById('myProfile');
+prof.style.display='none';
+var acc=document.getElementById('account');
+acc.style.display='none';
+var hom=document.getElementById('home');
+ profile=()=>{
+    document.getElementById('myProfile').style.display='block';
+    document.getElementById('home').style.display='none';
+    document.getElementById('prof').style.color='white';
+    document.getElementById('acc').style.color='black';
+    document.getElementById('account').style.display='none';
+    document.getElementById('hom').style.color='black';
+}
+
+ account=()=>{
+    document.getElementById('account').style.display='block';
+    document.getElementById('home').style.display='none';
+    document.getElementById('myProfile').style.display='none';
+    document.getElementById('acc').style.color='white';
+    document.getElementById('prof').style.color='black';
+    document.getElementById('hom').style.color='black';
+}
+home=()=>{
+    document.getElementById('home').style.display='block';
+    document.getElementById('myProfile').style.display='none';
+    document.getElementById('account').style.display='none';
+    document.getElementById('acc').style.color='black';
+    document.getElementById('prof').style.color='black';
+    document.getElementById('hom').style.color='white';
+}
+deposit=()=>{
+    depo.style.color='white';
+    alert('죄송합니다! 이 계좌에 입금할 수 없습니다. 도움이 필요하면 bankOfOverseas@gmail.com으로 문의하십시오.')
+}
+     </script>
+</body>
+</html>
