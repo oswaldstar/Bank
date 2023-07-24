@@ -90,5 +90,7 @@
         width:fit-content;
         margin:none;
         padding:none;
+        position: fixed;
+        left: 0;
     }
 }
