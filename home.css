@@ -79,8 +79,8 @@
     cursor: pointer;
 }
 @media screen and (max-width:520px){
-    .container{
-        width:200px;
+    .new-con{
+        width:100%;
         margin-left: none;
         position: fixed;
         left: 8px;
