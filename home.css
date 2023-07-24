@@ -89,5 +89,6 @@
     .myProfile, .body{
         width:fit-content;
         margin:none;
+        padding:none;
     }
 }
