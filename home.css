@@ -82,9 +82,7 @@
     .new-con{
         width:100%;
         margin-left: none;
-        position: fixed;
-        left:0;
-        left: 8px;
+
     }
     .fa-home, .fa-bank{
         margin-right: 90px;
