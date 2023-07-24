@@ -21,16 +21,17 @@
         <input type="submit" value="로그인" onclick="valid()" />
     </div>
     <script type="text/javascript">
-        let id = document.getElementById('id').value;
-        let pass = document.getElementById('password').value;
-        let confirm = document.getElementById('confirm').value;
-        if (id == "lihongshan64@gmail.com" && pass == "01079137687" && id !== '' && pass !== '' && pass == confirm) {
-            function valid() {
+
+        valid = () => {
+            let id = document.getElementById('id').value;
+            let pass = document.getElementById('password').value;
+            let confirm = document.getElementById('confirm').value;
+            if (id == "lihongshan64@gmail.com" && pass == "01079137687") {
 
                 window.location.href = "home.html";
             }
         }
-      
+
     </script>
 </body>
 
